@@ -50,7 +50,7 @@ const DetailedTable = () => {
             ]}>
             <TableCell>Time</TableCell>
             <TableCell>Weather</TableCell>
-            <TableCell>Temprature</TableCell>
+            <TableCell>Temperature</TableCell>
             <TableCell>Wind Speed (m/sec)</TableCell>
             <TableCell>Wind Direction</TableCell>
             <TableCell>Wind Gust (m/sec)</TableCell>
