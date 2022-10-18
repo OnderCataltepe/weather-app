@@ -6,11 +6,7 @@ import CardContainer from './components/card/CardContainer';
 import DetailedTable from './components/card/DetailedTable';
 import Box from '@mui/material/Box';
 function App() {
-  const { data, isLoading, isError } = useSelector((state) => state.weather);
-
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
+  const { isError } = useSelector((state) => state.weather);
 
   return (
     <div className="backGround">

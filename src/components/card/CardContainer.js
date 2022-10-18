@@ -19,7 +19,6 @@ const CardContainer = () => {
   useEffect(() => {
     if (data.length !== 0) {
       const newData = getCardDatas(data);
-      console.log(newData);
       dispatch(setSeperatedData(newData));
     }
   }, [data]);

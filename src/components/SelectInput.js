@@ -25,6 +25,7 @@ const SelectInput = () => {
         onInputChange={(event, newInputValue) => {
           setInputValue(newInputValue);
         }}
+        data-testid="select-test"
         id="controllable-states-demo"
         options={options}
         sx={{ width: 200, p: '0.5rem' }}

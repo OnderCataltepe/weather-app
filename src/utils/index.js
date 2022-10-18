@@ -108,7 +108,7 @@ export const separateDays = (data) => {
   if (dayArr.length === 6) {
     dayArr.splice(5, 1);
   }
-  console.log(dayArr);
+
   return dayArr;
 };
 /**Creates an array of objects including necessary data for daily and hourly weather cards. */
@@ -136,6 +136,6 @@ export const getCardDatas = (data) => {
 
     return { day, date, minTemp, maxTemp, hourlyList, city };
   });
-  console.log(list);
+
   return list;
 };
